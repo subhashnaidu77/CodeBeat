@@ -1,0 +1,112 @@
+Objective
+Create an HTML page that displays an official exam notice for your college. The notice should include a table of students eligible for the exam, a list of important instructions, and a section describing the exam details.
+
+Instructions
+Page Title and Heading
+
+Set the title of the page as "College Exam Notice".
+
+Add a centered heading (use <h2> or <h3>) with your college name.
+
+Exam Details Section
+
+Use a description list (<dl>) to display:
+
+Exam Name
+
+Date
+
+Time
+
+Venue
+
+Eligible Students Table
+
+Create a table with these columns: S.No, Name, College, Roll Number....... anyother
+
+Add sample student entries (you can invent names and roll numbers).
+
+Use proper table headings (<th>) and rows (<tr>).
+
+Important Instructions
+
+Add an ordered list (<ol>) with at least 3 exam instructions (e.g., "Bring your ID card", "No mobile phones allowed", etc.).
+
+Add an unordered list (<ul>) for items students must bring (e.g., pen, pencil, admit card).
+
+
+
+
+css : cascading style sheet 
+nameofthefile.css
+3 ways we can implement 
+1. inline  -- style attribute 
+2. internal 
+style tag , 
+ways : using tags 
+tagname {
+    property : value;
+}
+2. class names or id names 
+i. class names --- 
+.classname {
+    property: value;
+}
+#idname{
+    property:value;
+}
+   <!-- <style> -->
+    /* body{
+      background-color: red;  
+    } */
+    /* .students{
+        background-color: blue;
+    } */
+    /* #gitam{ */
+        /* background-color: green; */
+        /* align-items: center;
+        /* horizontall alignment and vertical alignment   */
+        /* justify-content: center; */
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */ */
+    /* } */
+<!-- </style> -->
+
+3. external css 
+
+first we should have external file  and we have to import that file in html doc 
+.classname {
+    property: value;
+}
+#idname{
+    property:value;
+}
+tagname {
+    property : value;
+}
+universal selector : 
+*{
+    property: value ;
+}
+
+
+form tag : 
+    <h1 > Form filling</h1>
+    <form>
+username: <input type="text" placeholder="subhash"><br>
+email:<input type="email" placeholder="enter email "><br>
+<button>submit </button>
+
+    </form>
+
+
+    task : https://subhashnaidu77.github.io/samplestudent/#contact
+    using the above link you have to design a event page 
+    task 2 : create resume using html and css
+    
+
+postions 
+1.static // default 
+2. relative //  it affect to the normal postion 
+3. fixed: // it will be fixed at that postion you have mention S
+4. sticky 
+5. absolute 
