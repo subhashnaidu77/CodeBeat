@@ -1,0 +1,15 @@
+.container{
+     position: relative;
+    /* left: 50px; */
+    /* margin-top: 40px; */
+  border: 1px solid #ddd;
+    height: 120px;
+    width: 220px;
+
+}
+.stick{
+    position:sticky;
+top: 10px;
+border: 1px black;
+
+}
