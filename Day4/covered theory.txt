@@ -1,0 +1,33 @@
+interact web page 
+change the behaviour dynamically 
+
+
+application : 
+1. client side validations 
+if(user=" "){ alret("enter the valid details ")}
+
+2. game devlopement 
+3. Data visualization - library d3.js 
+4. mobile app developments
+5 machine learning ml5.js
+
+
+Dom - document object model - 
+
+
+
+data types - Number , string, big int , null , undefined  , object , array , Boolean 
+variables in js - var   , in es 6 -- introduced  let and const 
+
+
+
+var - reassign & redeclare -- global or functional or block // instead block we consider only as global and functional scope   -- 
+
+let - reassign - but  cannot redeclare the variable 
+-- global / functional / block --- 
+
+const - reassing and redeclaration is not possible in const  -- block scope 
+
+
+
+
