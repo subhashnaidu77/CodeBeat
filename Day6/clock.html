@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Digital Clock </h1>
+
+    <h1 id="clock"></h1>
+    <script>
+        function clock(){
+            const current  = new Date(); // in js we have date methods here it creates a date with current date and time as well 
+            let hrs = current.getHours();
+            let mins = current.getMinutes();
+            let secs = current.getSeconds();
+            let merdian = hrs>= 12?"pm ": "am";
+            hrs  = hrs %12;
+            hrs  = hrs? hrs : 12;//  when the hrs reaches to 0 it will be 12 ;
+            hrs = hrs <10 ?"0"+ hrs:hrs;
+            mins = mins <10?"0"+ mins : mins ;
+            secs = secs <10 ? "0"+secs: secs;
+            document.getElementById("clock").textContent = hrs+ ":"+ mins+":"+ secs+": "+merdian;
+        
+            
+            
+        }
+         setInterval(clock,1000);// 1000 milliseconds = 1 second
+        clock();
+    </script>
+
+</body>
+</html>
