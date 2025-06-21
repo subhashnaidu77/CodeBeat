@@ -1,0 +1,86 @@
+Day9 : 
+Async / await :
+
+aync  function fun(){
+const response  = await somepromisemethod();
+console.log(response); 
+}
+---------------------
+function data()
+{
+return new Promise((resolve)=>{
+setTimeout(()=>{
+resolve(""Data received );
+},2000);
+});
+
+
+}
+async function load(){
+console.log("data is loading");
+const data = await  fun();
+console.log(data);
+}
+
+load()
+
+
+// try catch in async / await 
+
+function getUser(isuser){
+return new Promise ((resolve,reject )=>{
+setTimeout(()=>{
+if(isuser){
+resolve("user is online ")}
+else{
+reject("is ofline ");
+}
+
+},2000);
+
+});
+}
+
+aync function checking(){
+try{
+const msg = await getUser(false);
+console.log(msg);
+}
+catch(error){
+console.log(error);
+}
+
+}
+
+///	JSON - javascript object notation
+
+structure: 
+
+{
+"name": "Subhash",
+"age":25,
+"skills": ["c","javascript", "react" , "node" , "java" , "mongo "]
+}
+
+key - value 
+
+
+const mydata = {
+"name": "Subhash",
+"age":25,
+"skills": ["c","javascript", "react" , "node" , "java" , "mongo "]
+};
+
+const jsonString = JSON.stringify(mydata);
+console.log(jsonString)
+
+
+
+const jsonstring ='{"name": "Subhash","age":25,
+
+}';
+const jsonobj = JSON.parse(jsonstring);
+console.log(jsonobj.name); 
+
+
+
