@@ -1,0 +1,47 @@
+use - to switch db 
+insert - for inserting one record
+insertmany - for multiple record insertions 
+
+fin - find a record 
+find based on condition --- and , or , in , $gt , $gte,$lt, $lte
+
+find one -- for particular recode and find many for multiple 
+
+delet one-- to delete 
+
+update one - for only record update 
+
+updatemany for multiple record updates
+
+show dbs - to show datbases present 
+
+show collections -- to show all the collections in the particular db we have
+
+
+
+find.sort with value 1 - returns ascending order 
+
+
+if we place find.sort with -1 we iwll get with descending order
+
+
+limit - it will print with limited records 
+
+
+skip(1)-- means to skip the number of records
+
+createindex --
+
+
+count of documents 
+
+dropcollection 
+dropodatabse
+
+aggregate in monogo and done with group ,, match 
+
+rename field - to change the field name 
+
+
+ 
+
