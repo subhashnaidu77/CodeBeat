@@ -1,0 +1,35 @@
+useffect -- 1. to run on every render 
+useffect(()=>{}}
+ 
+2. run only once like component di mount
+
+useffect(()=>{},[])
+
+3. run when count changes
+useffect (()=>{},[count]);
+
+different hooks -- 
+useRef-- refer to the dom elements adn keep mutable value 
+use Memo -- memorize the expensive calacutions ...
+
+useCallback-- memorize functions
+
+axios -- api requests 
+better than fetch ();
+--  get post , delete, put 
+
+npm install axios 
+
+
+
+fetch (method: 'GET' body, headers ...)
+
+
+
+
+
+
+
+
+
+
